@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./header.css" />
+    <link rel="stylesheet" href="./navigation.css" />
+    <link rel="stylesheet" href="./section.css" />
+    <link rel="stylesheet" href="./table.css" />
+    <link rel="stylesheet" href="./footer.css" />
+    <script defer src="./main.js"></script>
+    <title>Praca domowa tydzień 3</title>
+  </head>
+  <body>
+    <nav class="navigation">
+      <ul>
+        <li class="navigation__list">
+          <a class="navigation__anchor" href="#">Strona główna</a>
+        </li>
+        <li class="navigation__list">
+          <a class="navigation__anchor" href="#about">O mnie</a>
+        </li>
+        <li class="navigation__list">
+          <a class="navigation__anchor" href="#curiosities">Ciekawostki</a>
+        </li>
+        <li class="navigation__list">
+          <a class="navigation__anchor" href="#idols">Idole</a>
+        </li>
+      </ul>
+    </nav>
+
+    <header class="header">
+      <h1 class="header__heading">Maciej Godlewski</h1>
+      <img
+        class="header__image js-headerImage"
+        src="https://i.ibb.co/NLpr4ZW/ja.jpg"
+        alt="Maciej Godlewski - autor strony w dniu ślubu."
+      />
+      <button class="header__button js-toRoundImageButton">
+        <span class="js-nextBorderName">Zaokrąglij rogi</span>
+      </button>
+      <p class="header__paragraph">
+        Strona poświęcona jest zadaniu z modułu 4 w programie nauczania młodych
+        i ambitnych programistów - Youcode.
+      </p>
+    </header>
+
+    <main>
+      <section class="section" id="about">
+        <h2 class="section__header">O mnie</h2>
+        <p class="section__paragraph">
+          Cześć. Mam na imię Maciej, pochodzę z Suwałk. Tworzenia stron uczę się
+          już jakiś czas. Niestety chilowo bez żadnych realnych rezultatów -
+          same podstawy. Mam nadzieję to zmienić. Wstawiam moje ulubione zdjęcie
+          z mojego własnego ślubu, które było w tamtym roku.
+        </p>
+      </section>
+      <section class="section" id="#curiosities">
+        <h2 class="section__header">Ciekawostki</h2>
+        <p class="section__paragraph">
+          Chyba największa ciekawostka o mnie jest taka, że pracuję w Orange
+          (sam bym po sobie tego się nie spodziewał). Mieszkałem kilka miesięcy
+          we Francji i mam stymulator serca od 12 roku życia.
+        </p>
+      </section>
+      <section class="section" id="idols">
+        <h2 class="section__header">Tabela z moimi idolami</h2>
+        <div class="table__containers">
+          <table class="table">
+            <caption class="table__caption">
+              Moi idole
+            </caption>
+            <tr>
+              <th class="table__cell table__header" scope="col"></th>
+              <th class="table__cell table__header" scope="col">Zawód</th>
+              <th class="table__cell table__header" scope="col">
+                Czym zaimponował
+              </th>
+              <th class="table__cell table__header" scope="col">
+                Do czego mnie zmotywował
+              </th>
+            </tr>
+            <tr>
+              <th class="table__cell table__header" scope="row">
+                Geralt z Rivii
+              </th>
+              <td class="table__cell" rowspan="2">Wiedźmin</td>
+              <td class="table__cell" rowspan="2">Umiejętności w walce</td>
+              <td class="table__cell" rowspan="2">Ukończenie gry w tydzień</td>
+            </tr>
+            <tr>
+              <th class="table__cell table__header" scope="row">Vesemir</th>
+            </tr>
+            <tr>
+              <th class="table__cell table__header" scope="row">
+                Michael Scott
+              </th>
+              <td class="table__cell">Dyrektor regionalny</td>
+              <td class="table__cell">Poczucie humoru</td>
+              <td class="table__cell">Brania z życia pełnymi garściami</td>
+            </tr>
+            <tr>
+              <th class="table__cell table__header" scope="row">
+                Monkey D. Luffy
+              </th>
+              <td class="table__cell">Pirat</td>
+              <td class="table__cell">Gear Fifth</td>
+              <td class="table__cell">Do odnalezienia "One Piece"</td>
+            </tr>
+            <tr>
+              <th class="table__cell table__header" scope="row">Beza</th>
+              <td class="table__cell">Mój pies</td>
+              <td class="table__cell">Gryzieniem kaczuchy</td>
+              <td class="table__cell">Do zostania programistą</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__paragraph">Maciej Godlewski &copy;</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+.table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 100%;
+}
+
+.table__container {
+    overflow-x: auto;
+    margin-bottom: 20px;
+}
+
+.table__caption {
+    margin-bottom: 15px;
+}
+
+.table__header {
+    color: white;
+    background-color: #6e88c0;
+}
+
+.table__cell {
+    padding: 16px 16px ;
+    text-align: center;
+    border: 1px solid black;
+}

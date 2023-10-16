@@ -1,0 +1,19 @@
+html {
+    box-sizing: border-box;
+    }
+    
+*, ::before, ::after {
+    box-sizing: inherit;
+    }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: #dadde5;
+}
+
+.header__image--rounded {
+    border-radius: 40px;
+}

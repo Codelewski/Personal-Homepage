@@ -1,0 +1,9 @@
+.footer {
+    height: 40px;
+    background-color: #6e88c0;
+}
+
+.footer__paragraph {
+    color: white;
+    text-align: center;
+}
