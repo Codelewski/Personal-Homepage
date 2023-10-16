@@ -1,12 +1,20 @@
-let changeTextButton = document.querySelector(".js-toRoundImageButton");
-let aboutImage = document.querySelector(".js-headerImage");
+{
+  const onChangeBorderImage = () => {
+    const headerImage = document.querySelector(".js-headerImage");
+    const nextBorderName = document.querySelector(".js-nextBorderName");
 
-changeTextButton.addEventListener("click", () => {
-  aboutImage.classList.toggle("header__image--rounded");
+    headerImage.classList.toggle("header__image--rounded");
+    nextBorderName.innerText = headerImage.classList.contains(
+      "header__image--rounded"
+    )
+      ? "Zaokrąglone rogi"
+      : "Zaokrąglij rogi";
+  };
 
-  changeTextButton.textContent = aboutImage.classList.contains(
-    "header__image--rounded"
-  )
-    ? "Zaokrąglone rogi"
-    : "Zaokrąglij rogi";
-});
+  const init = () => {
+    const toRoundImgButton = document.querySelector(".js-toRoundImageButton");
+    toRoundImgButton.addEventListener("click", onChangeBorderImage);
+  };
+
+  init();
+}
