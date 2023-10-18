@@ -29,3 +29,7 @@
 .header__button:hover {
     background-color: #4f72bc;
 }
+
+.header__image--rounded {
+    border-radius: 40px;
+}

@@ -4,7 +4,7 @@
     width: 100%;
 }
 
-.table__container {
+.tableContainer {
     overflow-x: auto;
     margin-bottom: 20px;
 }
@@ -13,7 +13,7 @@
     margin-bottom: 15px;
 }
 
-.table__header {
+.table__cell--header {
     color: white;
     background-color: #6e88c0;
 }
